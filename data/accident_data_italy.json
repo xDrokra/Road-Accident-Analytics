@@ -1,0 +1,841 @@
+{
+    "data": [
+        {
+            "comune": "L'Acquila",
+            "morti": 1,
+            "feriti": 250,
+            "incidenti": 171,
+            "lat": "42.3496",
+            "lon": "13.3906",
+            "regione": "Abruzzo"
+        },
+        {
+            "comune": "Pescara",
+            "morti": 7,
+            "feriti": 557,
+            "incidenti": 459,
+            "lat": "42.3102619",
+            "lon": "13.95759010584892",
+            "indice_mortalita": {
+                "strada_urbana": 1.08,
+                "autostrada": 10.34,
+                "altra_strada": 4.35,
+                "totale": 1.81
+            },
+            "tot_veicoli_incidenti": 1644,
+            "regione": "Abruzzo"
+        },
+        {
+            "comune": "Chieti",
+            "morti": 3,
+            "feriti": 160,
+            "incidenti": 122,
+            "lat": "42.10269285",
+            "lon": "14.41590530501923",
+            "indice_mortalita": {
+                "strada_urbana": 1.29,
+                "autostrada": 4.11,
+                "altra_strada": 6.70,
+                "totale": 3.15
+            },
+            "tot_veicoli_incidenti": 1445,
+            "regione": "Abruzzo"
+        },
+        {
+            "comune": "Potenza",
+            "morti": 3,
+            "feriti": 244,
+            "incidenti": 171,
+            "lat": "40.6429604",
+            "lon": "15.808553",
+            "indice_mortalita": {
+                "strada_urbana": 1.69,
+                "autostrada": null,
+                "altra_strada": 5.48,
+                "totale": 3.11
+            },
+            "tot_veicoli_incidenti": 924,
+            "regione": "Basilicata"
+        },
+        {
+            "comune": "Matera",
+            "morti": 2,
+            "feriti": 266,
+            "incidenti": 202,
+            "lat": "40.6666667",
+            "lon": "16.6",
+            "indice_mortalita": {
+                "strada_urbana": 1.61,
+                "autostrada": null,
+                "altra_strada": 3.47,
+                "totale": 2.38
+            },
+            "tot_veicoli_incidenti": 710,
+            "regione": "Basilicata"
+        },
+        {
+            "comune": "Catanzaro",
+            "morti": 3,
+            "feriti": 200,
+            "incidenti": 140,
+            "lat": "38.910946",
+            "lon": "16.587356",
+            "indice_mortalita": {
+                "strada_urbana": 3.29,
+                "autostrada": 9.38,
+                "altra_strada": 5.16,
+                "totale": 4.37
+            },
+            "tot_veicoli_incidenti": 1044,
+            "regione": "Calabria"
+        },
+        {
+            "comune": "Reggio Calabria",
+            "morti": 4,
+            "feriti": 450,
+            "incidenti": 349,
+            "lat": "38.1105",
+            "lon": "15.6501",
+            "indice_mortalita": {
+                "strada_urbana": 2,
+                "autostrada": 3.37,
+                "altra_strada": 6.52,
+                "totale": 3.26
+            },
+            "tot_veicoli_incidenti": 1668,
+            "regione": "Calabria"
+        },
+        {
+            "comune": "Cosenza",
+            "morti": 3,
+            "feriti": 200,
+            "incidenti": 153,
+            "lat": "39.299236",
+            "lon": "16.2537",
+            "indice_mortalita": {
+                "strada_urbana": 2.06,
+                "autostrada": 2.53,
+                "altra_strada": 8.19,
+                "totale": 4.03
+            },
+            "tot_veicoli_incidenti": 1618,
+            "regione": "Calabria"
+        },
+        {
+            "comune": "Napoli",
+            "morti": 37,
+            "feriti": 3067,
+            "incidenti": 2379,
+            "lat": "40.85216",
+            "lon": "14.26811",
+            "indice_mortalita": {
+                "strada_urbana": 1.37,
+                "autostrada": 1.63,
+                "altra_strada": 3.77,
+                "totale": 1.62
+            },
+            "tot_veicoli_incidenti": 9817,
+            "regione": "Campania"
+        },
+        {
+            "comune": "Salerno",
+            "morti": 5,
+            "feriti": 764,
+            "incidenti": 532,
+            "lat": "40.680638",
+            "lon": "14.759937",
+            "indice_mortalita": {
+                "strada_urbana": 1.27,
+                "autostrada": 4.63,
+                "altra_strada": 3.06,
+                "totale": 2.04
+            },
+            "tot_veicoli_incidenti": 4706,
+            "regione": "Campania"
+        },
+        {
+            "comune": "Caserta",
+            "morti": 2,
+            "feriti": 165,
+            "incidenti": 133,
+            "lat": "41.0747",
+            "lon": "14.3324",
+            "indice_mortalita": {
+                "strada_urbana": 1.73,
+                "autostrada": 4.26,
+                "altra_strada": 7.11,
+                "totale": 3.30
+            },
+            "tot_veicoli_incidenti": 2820,
+            "regione": "Campania"
+        },
+        {
+            "comune": "Bologna",
+            "morti": 21,
+            "feriti": 2731,
+            "incidenti": 2158,
+            "lat": "44.4938",
+            "lon": "11.343",
+            "indice_mortalita": {
+                "strada_urbana": 1.16,
+                "autostrada": 3.17,
+                "altra_strada": 4.02,
+                "totale": 1.89
+            },
+            "tot_veicoli_incidenti": 7347,
+            "regione": "Emilia-Romagna"
+        },
+        {
+            "comune": "Parma",
+            "morti": 7,
+            "feriti": 929,
+            "incidenti": 755,
+            "lat": "44.8014",
+            "lon": "10.3287",
+            "indice_mortalita": {
+                "strada_urbana": 0.77,
+                "autostrada": 3.70,
+                "altra_strada": 3.13,
+                "totale": 1.67
+            },
+            "tot_veicoli_incidenti": 2555,
+            "regione": "Emilia-Romagna"
+        },
+        {
+            "comune": "Modena",
+            "morti": 13,
+            "feriti": 1313,
+            "incidenti": 1000,
+            "lat": "44.6478",
+            "lon": "10.9254",
+            "indice_mortalita": {
+                "strada_urbana": 1.30,
+                "autostrada": 4.17,
+                "altra_strada": 3.43,
+                "totale": 1.95
+            },
+            "tot_veicoli_incidenti": 4879,
+            "regione": "Emilia-Romagna"
+        },
+        {
+            "comune": "Trieste",
+            "morti": 5,
+            "feriti": 958,
+            "incidenti": 790,
+            "lat": "45.6495",
+            "lon": "13.7765",
+            "indice_mortalita": {
+                "strada_urbana": 0.67,
+                "autostrada": null,
+                "altra_strada": 1.85,
+                "totale": 0.78
+            },
+            "tot_veicoli_incidenti": 1561,
+            "regione": "Friuli-Venezia Giulia"
+        },
+        {
+            "comune": "Udine",
+            "morti": 4,
+            "feriti": 426,
+            "incidenti": 355,
+            "lat": "46.0711",
+            "lon": "13.2346",
+            "indice_mortalita": {
+                "strada_urbana": 2.16,
+                "autostrada": 2.04,
+                "altra_strada": 2.48,
+                "totale": 2.27
+            },
+            "tot_veicoli_incidenti": 2088,
+            "regione": "Friuli-Venezia Giulia"
+        },
+        {
+            "comune": "Pordenone",
+            "morti": 3,
+            "feriti": 229,
+            "incidenti": 178,
+            "lat": "45.9628",
+            "lon": "12.6603",
+            "indice_mortalita": {
+                "strada_urbana": 2.05,
+                "autostrada": null,
+                "altra_strada": 1.74,
+                "totale": 1.89
+            },
+            "tot_veicoli_incidenti": 1178,
+            "regione": "Friuli-Venezia Giulia"
+        },
+        {
+            "comune": "Roma",
+            "morti": 154,
+            "feriti": 16023,
+            "incidenti": 12817,
+            "lat": "41.8931",
+            "lon": "12.4828",
+            "indice_mortalita": {
+                "strada_urbana": 1.19,
+                "autostrada": 2.02,
+                "altra_strada": 2.57,
+                "totale": 1.39
+            },
+            "tot_veicoli_incidenti": 30518,
+            "regione": "Lazio"
+        },
+        {
+            "comune": "Viterbo",
+            "morti": 5,
+            "feriti": 461,
+            "incidenti": 342,
+            "lat": "42.4174",
+            "lon": "12.1047",
+            "indice_mortalita": {
+                "strada_urbana": 0.72,
+                "autostrada": null,
+                "altra_strada": 4.11,
+                "totale": 2.24
+            },
+            "tot_veicoli_incidenti": 1440,
+            "regione": "Lazio"
+        },
+        {
+            "comune": "Latina",
+            "morti": 9,
+            "feriti": 649,
+            "incidenti": 431,
+            "lat": "41.4676",
+            "lon": "12.9037",
+            "indice_mortalita": {
+                "strada_urbana": 1.51,
+                "autostrada": null,
+                "altra_strada": 6.03,
+                "totale": 3.35
+            },
+            "tot_veicoli_incidenti": 3133,
+            "regione": "Lazio"
+        },
+        {
+            "comune": "Genova",
+            "morti": 13,
+            "feriti": 4339,
+            "incidenti": 3669,
+            "lat": "44.4072",
+            "lon": "8.934",
+            "indice_mortalita": {
+                "strada_urbana": 0.39,
+                "autostrada": 0.55,
+                "altra_strada": 1.83,
+                "totale": 0.46
+            },
+            "tot_veicoli_incidenti": 7667,
+            "regione": "Liguria"
+        },
+        {
+            "comune": "La Spezia",
+            "morti": 2,
+            "feriti": 522,
+            "incidenti": 415,
+            "lat": "44.1076",
+            "lon": "9.8297",
+            "indice_mortalita": {
+                "strada_urbana": 0.39,
+                "autostrada": null,
+                "altra_strada": 4.13,
+                "totale": 1.01
+            },
+            "tot_veicoli_incidenti": 1267,
+            "regione": "Liguria"
+        },
+        {
+            "comune": "Sanremo",
+            "morti": 2,
+            "feriti": 404,
+            "incidenti": 345,
+            "lat": "43.8159",
+            "lon": "7.7764",
+            "regione": "Liguria"
+        },
+        {
+            "comune": "Milano",
+            "morti": 47,
+            "feriti": 9709,
+            "incidenti": 7812,
+            "lat": "45.4642",
+            "lon": "9.19",
+            "indice_mortalita": {
+                "strada_urbana": 0.66,
+                "autostrada": 2.58,
+                "altra_strada": 2.56,
+                "totale": 0.94
+            },
+            "tot_veicoli_incidenti": 23284,
+            "regione": "Lombardia"
+        },
+        {
+            "comune": "Bergamo",
+            "morti": 5,
+            "feriti": 1098,
+            "incidenti": 891,
+            "lat": "45.6983",
+            "lon": "9.6773",
+            "indice_mortalita": {
+                "strada_urbana": 1.15,
+                "autostrada": 1.15,
+                "altra_strada": 2.51,
+                "totale": 1.51
+            },
+            "tot_veicoli_incidenti": 5050,
+            "regione": "Lombardia"
+        },
+        {
+            "comune": "Brescia",
+            "morti": 6,
+            "feriti": 1085,
+            "incidenti": 891,
+            "lat": "45.5399",
+            "lon": "10.2223",
+            "indice_mortalita": {
+                "strada_urbana": 0.95,
+                "autostrada": 2.91,
+                "altra_strada": 4.99,
+                "totale": 2.05
+            },
+            "tot_veicoli_incidenti": 5356,
+            "regione": "Lombardia"
+        },
+        {
+            "comune": "Ancona",
+            "morti": 4,
+            "feriti": 599,
+            "incidenti": 451,
+            "lat": "43.6158",
+            "lon": "13.5189",
+            "indice_mortalita": {
+                "strada_urbana": 0.97,
+                "autostrada": 13.15,
+                "altra_strada": 2.50,
+                "totale": 1.65
+            },
+            "tot_veicoli_incidenti": 2932,
+            "regione": "Marche"
+        },
+        {
+            "comune": "Pesaro",
+            "morti": 8,
+            "feriti": 579,
+            "incidenti": 466,
+            "lat": "43.9126",
+            "lon": "12.9147",
+            "indice_mortalita": {
+                "strada_urbana": 1.28,
+                "autostrada": 10,
+                "altra_strada": 5.13,
+                "totale": 2.44
+            },
+            "tot_veicoli_incidenti": 2154,
+            "regione": "Marche"
+        },
+        {
+            "comune": "Ascoli Piceno",
+            "morti": 1,
+            "feriti": 258,
+            "incidenti": 192,
+            "lat": "42.8542",
+            "lon": "13.5749",
+            "indice_mortalita": {
+                "strada_urbana": 0.76,
+                "autostrada": 11.86,
+                "altra_strada": 4.31,
+                "totale": 2.29
+            },
+            "tot_veicoli_incidenti": 1300,
+            "regione": "Marche"
+        },
+        {
+            "comune": "Campobasso",
+            "morti": 3,
+            "feriti": 149,
+            "incidenti": 99,
+            "lat": "41.5623",
+            "lon": "14.6554",
+            "indice_mortalita": {
+                "strada_urbana": 1.54,
+                "autostrada": null,
+                "altra_strada": 7.76,
+                "totale": 3.73
+            },
+            "tot_veicoli_incidenti": 580,
+            "regione": "Molise"
+        },
+        {
+            "comune": "Isernia",
+            "morti": 0,
+            "feriti": 86,
+            "incidenti": 59,
+            "lat": "41.5908",
+            "lon": "14.2301",
+            "indice_mortalita": {
+                "strada_urbana": null,
+                "autostrada": null,
+                "altra_strada": 4.55,
+                "totale": 2.60
+            },
+            "tot_veicoli_incidenti": 267,
+            "regione": "Molise"
+        },
+        {
+            "comune": "Torino",
+            "morti": 23,
+            "feriti": 4131,
+            "incidenti": 2918,
+            "lat": "45.0703",
+            "lon": "7.6869",
+            "indice_mortalita": {
+                "strada_urbana": 1.12,
+                "autostrada": 0.51,
+                "altra_strada": 2.80,
+                "totale": 1.29
+            },
+            "tot_veicoli_incidenti": 9910,
+            "regione": "Piemonte"
+        },
+        {
+            "comune": "Novara",
+            "morti": 1,
+            "feriti": 546,
+            "incidenti": 408,
+            "lat": "45.4451",
+            "lon": "8.6216",
+            "indice_mortalita": {
+                "strada_urbana": 0.15,
+                "autostrada": 1.89,
+                "altra_strada": 3.75,
+                "totale": 1.17
+            },
+            "tot_veicoli_incidenti": 1751,
+            "regione": "Piemonte"
+        },
+        {
+            "comune": "Asti",
+            "morti": 3,
+            "feriti": 297,
+            "incidenti": 234,
+            "lat": "44.8996",
+            "lon": "8.2069",
+            "indice_mortalita": {
+                "strada_urbana": 0.78,
+                "autostrada": null,
+                "altra_strada": 10.81,
+                "totale": 3.58
+            },
+            "tot_veicoli_incidenti": 669,
+            "regione": "Piemonte"
+        },
+        {
+            "comune": "Bari",
+            "morti": 12,
+            "feriti": 2238,
+            "incidenti": 1563,
+            "lat": "41.1259",
+            "lon": "16.8666",
+            "indice_mortalita": {
+                "strada_urbana": 0.67,
+                "autostrada": 6.25,
+                "altra_strada": 3.83,
+                "totale": 1.58
+            },
+            "tot_veicoli_incidenti": 6703,
+            "regione": "Puglia"
+        },
+        {
+            "comune": "Lecce",
+            "morti": 11,
+            "feriti": 593,
+            "incidenti": 463,
+            "lat": "40.3539",
+            "lon": "18.1719",
+            "indice_mortalita": {
+                "strada_urbana": 0.92,
+                "autostrada": null,
+                "altra_strada": 5.62,
+                "totale": 2.26
+            },
+            "tot_veicoli_incidenti": 3382,
+            "regione": "Puglia"
+        },
+        {
+            "comune": "Taranto",
+            "morti": 16,
+            "feriti": 1076,
+            "incidenti": 724,
+            "lat": "40.4737",
+            "lon": "17.2324",
+            "indice_mortalita": {
+                "strada_urbana": 1.38,
+                "autostrada": null,
+                "altra_strada": 8.93,
+                "totale": 3.20
+            },
+            "tot_veicoli_incidenti": 2753,
+            "regione": "Puglia"
+        },
+        {
+            "comune": "Cagliari",
+            "morti": 10,
+            "feriti": 574,
+            "incidenti": 457,
+            "lat": "39.2238",
+            "lon": "9.1217",
+            "indice_mortalita": {
+                "strada_urbana": 1.99,
+                "autostrada": null,
+                "altra_strada": 6.22,
+                "totale": 3.14
+            },
+            "tot_veicoli_incidenti": 1662,
+            "regione": "Sardegna"
+        },
+        {
+            "comune": "Sassari",
+            "morti": 7,
+            "feriti": 701,
+            "incidenti": 519,
+            "lat": "40.7267",
+            "lon": "8.559",
+            "indice_mortalita": {
+                "strada_urbana": 0.58,
+                "autostrada": null,
+                "altra_strada": 3.74,
+                "totale": 1.82
+            },
+            "tot_veicoli_incidenti": 2530,
+            "regione": "Sardegna"
+        },
+        {
+            "comune": "Olbia",
+            "morti": 4,
+            "feriti": 396,
+            "incidenti": 299,
+            "lat": "40.9237",
+            "lon": "9.4849",
+            "indice_mortalita": null,
+            "regione": "Sardegna"
+        },
+        {
+            "comune": "Palermo",
+            "morti": 27,
+            "feriti": 2503,
+            "incidenti": 1886,
+            "lat": "38.1157",
+            "lon": "13.3615",
+            "indice_mortalita": {
+                "strada_urbana": 1.44,
+                "autostrada": 3.83,
+                "altra_strada": 4.98,
+                "totale": 1.97
+            },
+            "tot_veicoli_incidenti": 4801,
+            "regione": "Sicilia"
+        },
+        {
+            "comune": "Catania",
+            "morti": 17,
+            "feriti": 1902,
+            "incidenti": 1369,
+            "lat": "37.5027",
+            "lon": "15.0873",
+            "indice_mortalita": {
+                "strada_urbana": 1.39,
+                "autostrada": 0.95,
+                "altra_strada": 6.10,
+                "totale": 2.01
+            },
+            "tot_veicoli_incidenti": 5688,
+            "regione": "Sicilia"
+        },
+        {
+            "comune": "Messina",
+            "morti": 11,
+            "feriti": 988,
+            "incidenti": 723,
+            "lat": "38.1937",
+            "lon": "15.5542",
+            "indice_mortalita": {
+                "strada_urbana": 1.35,
+                "autostrada": 4.88,
+                "altra_strada": 4.94,
+                "totale": 2.20
+            },
+            "tot_veicoli_incidenti": 2416,
+            "regione": "Sicilia"
+        },
+        {
+            "comune": "Firenze",
+            "morti": 17,
+            "feriti": 3018,
+            "incidenti": 2580,
+            "lat": "43.7696",
+            "lon": "11.2558",
+            "indice_mortalita": {
+                "strada_urbana": 0.76,
+                "autostrada": 3.03,
+                "altra_strada": 3.23,
+                "totale": 1.24
+            },
+            "tot_veicoli_incidenti": 8599,
+            "regione": "Toscana"
+        },
+        {
+            "comune": "Pisa",
+            "morti": 5,
+            "feriti": 670,
+            "incidenti": 552,
+            "lat": "43.7228",
+            "lon": "10.4017",
+            "indice_mortalita": {
+                "strada_urbana": 0.81,
+                "autostrada": null,
+                "altra_strada": 4.56,
+                "totale": 1.80
+            },
+            "tot_veicoli_incidenti": 2917,
+            "regione": "Toscana"
+        },
+        {
+            "comune": "Siena",
+            "morti": 2,
+            "feriti": 316,
+            "incidenti": 261,
+            "lat": "43.3188",
+            "lon": "11.3308",
+            "indice_mortalita": {
+                "strada_urbana": 0.88,
+                "autostrada": 1.82,
+                "altra_strada": 2.36,
+                "totale": 1.44
+            },
+            "tot_veicoli_incidenti": 1347,
+            "regione": "Toscana"
+        },
+        {
+            "comune": "Trento",
+            "morti": 7,
+            "feriti": 470,
+            "incidenti": 359,
+            "lat": "46.0667",
+            "lon": "11.1167",
+            "indice_mortalita": {
+                "strada_urbana": 1.99,
+                "autostrada": 5.41,
+                "altra_strada": 3.50,
+                "totale": 2.79
+            },
+            "tot_veicoli_incidenti": 2289,
+            "regione": "Trentino-Alto Adige"
+        },
+        {
+            "comune": "Bolzano",
+            "morti": 4,
+            "feriti": 793,
+            "incidenti": 659,
+            "lat": "46.4983",
+            "lon": "11.354",
+            "indice_mortalita": {
+                "strada_urbana": 0.85,
+                "autostrada": 1.15,
+                "altra_strada": 4.07,
+                "totale": 1.98
+            },
+            "tot_veicoli_incidenti": 3159,
+            "regione": "Trentino-Alto Adige"
+        },
+        {
+            "comune": "Perugia",
+            "morti": 4,
+            "feriti": 586,
+            "incidenti": 458,
+            "lat": "43.1107",
+            "lon": "12.3892",
+            "indice_mortalita": {
+                "strada_urbana": 1.53,
+                "autostrada": 7.89,
+                "altra_strada": 2.82,
+                "totale": 2.23
+            },
+            "tot_veicoli_incidenti": 2988,
+            "regione": "Umbria"
+        },
+        {
+            "comune": "Assisi",
+            "morti": 2,
+            "feriti": 96,
+            "incidenti": 74,
+            "lat": "43.0707",
+            "lon": "12.6177",
+            "regione": "Umbria"
+        },
+        {
+            "comune": "Aosta",
+            "morti": 1,
+            "feriti": 127,
+            "incidenti": 98,
+            "lat": "45.7375",
+            "lon": "7.3205",
+            "indice_mortalita": {
+                "strada_urbana": 1.30,
+                "autostrada": null,
+                "altra_strada": 2.61,
+                "totale": 1.74
+            },
+            "tot_veicoli_incidenti": 495,
+            "regione": "Valle d'Aosta"
+        },
+        {
+            "comune": "Venezia",
+            "morti": 30,
+            "feriti": 847,
+            "incidenti": 662,
+            "lat": "45.4384",
+            "lon": "12.326",
+            "indice_mortalita": {
+                "strada_urbana": 1.62,
+                "autostrada": 3.20,
+                "altra_strada": 7.64,
+                "totale": 3.28
+            },
+            "tot_veicoli_incidenti": 4307,
+            "regione": "Veneto"
+        },
+        {
+            "comune": "Verona",
+            "morti": 15,
+            "feriti": 1418,
+            "incidenti": 1170,
+            "lat": "45.4386",
+            "lon": "10.9924",
+            "indice_mortalita": {
+                "strada_urbana": 1.80,
+                "autostrada": 2.82,
+                "altra_strada": 3.35,
+                "totale": 2.22
+            },
+            "tot_veicoli_incidenti": 5244,
+            "regione": "Veneto"
+        },
+        {
+            "comune": "Padova",
+            "morti": 11,
+            "feriti": 1278,
+            "incidenti": 1028,
+            "lat": "45.4064",
+            "lon": "11.8768",
+            "indice_mortalita": {
+                "strada_urbana": 1.05,
+                "autostrada": 2.20,
+                "altra_strada": 2.67,
+                "totale": 1.47
+            },
+            "tot_veicoli_incidenti": 4710,
+            "regione": "Veneto"
+        }
+    ]
+}

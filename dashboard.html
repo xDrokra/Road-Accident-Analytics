@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road Incident Dashboard Italy</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=skullpersonal_injurycar_crashtraffic_jamdark_mode"
+    />
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script type="module" src="js/darkWhiteMode.js" defer></script>
+    <script type="module" src="js/leaflet.js" defer></script>
+  </head>
+  
+  <body>
+    <span class="material-symbols-outlined change-mode" data-type="dark"> dark_mode </span>
+    
+    <main>
+      <section class="left-content">
+        <div class="total-info">
+          <div class="exit-container">
+            <h1></h1>
+            <span class="exit">X</span>
+          </div>
+          <p></p>
+
+          <div class="crash">
+            <span class="material-symbols-outlined"> car_crash </span>
+            <span class="title">Total Accident</span>
+            <span class="value"></span>
+          </div>
+
+          <div class="vehicle">
+            <span class="material-symbols-outlined"> traffic_jam </span>
+            <span class="title">Total vehicles</span>
+            <span class="value"></span>
+          </div>
+
+          <div class="injury">
+            <span class="material-symbols-outlined"> personal_injury </span>
+            <span class="title">Total Injuries</span>
+            <span class="value"></span>
+          </div>
+
+          <div class="death">
+            <span class="material-symbols-outlined"> skull </span>
+            <span class="title">Total Deaths</span>
+            <span class="value"></span>
+          </div>
+
+          <hr />
+
+          <div class="chart">
+            <canvas id="pieChart"></canvas>
+          </div>
+
+          <div class="long">
+            <h3>Risk level</h3>
+            <div>
+              <hr class="risk" />
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="right-content">
+        <div class="map" id="map"></div>
+      </section>
+    </main>
+  </body>
+</html>

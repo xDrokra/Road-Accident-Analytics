@@ -1,0 +1,279 @@
+:root {
+  --bg-main: #262626;
+  --font-main: #fff;
+  --bg-main-darker: #090909;
+  --bg-secondary: #0f0f0f;
+  --color-text: gray;
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+body {
+  position: relative;
+  background-color: var(--bg-secondary);
+  color: var(--font-main);
+  font-size: 16px;
+  padding: 3rem 6rem;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 1.1fr 3fr;
+  height: 100% !important;
+  margin: 0 auto;
+}
+
+/* Left content section */
+.left-content {
+  grid-area: left;
+  background: var(--bg-main);
+  padding: 1.5rem;
+  border-radius: 10px 0 0 10px;
+  border-right: 8px solid var(--bg-main-darker);
+}
+
+.total-info {
+  display: block;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.total-info .exit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total-info .exit {
+  display: none;
+  color: var(--font-main);
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: var(--bg-main-darker);
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-out 0.2s;
+}
+
+.total-info .exit:hover {
+  color: var(--color-text);
+  transition: ease-out 0.2s;
+}
+
+.total-info p {
+  color: var(--color-text);
+  font-size: 0.7rem;
+}
+
+.crash,
+.injury,
+.death,
+.vehicle {
+  margin-top: 1rem;
+  background: var(--bg-main-darker);
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.total-info .title {
+  margin-left: 1.5rem;
+  color: var(--color-text);
+  width: 100px;
+}
+
+.total-info .value {
+  color: var(--font-main);
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.chart {
+  margin-top: 1rem;
+}
+
+.chart #pieChart {
+  width: 100% !important;
+  height: 235px !important;
+}
+
+hr {
+  border: 2px solid var(--color-text);
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.long {
+  display: none;
+  margin-top: 1rem;
+}
+
+.long div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.long .risk {
+  width: 85%;
+  margin-top: 0;
+}
+
+/* Right Content Section */
+.right-content {
+  grid-area: right;
+  position: relative;
+}
+
+.right-content #map {
+  width: 100%;
+  height: 100% !important;
+  background: var(--bg-main-darker);
+}
+
+/* Icons */
+i {
+  color: var(--font-main);
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.change-mode {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.change-mode:hover {
+  color: var(--color-text);
+}
+
+/* Responsive Styles */
+
+/* Laptop (max-width: 1024px) */
+@media (max-width: 1024px) {
+  body {
+    padding: 2rem;
+  }
+
+  main {
+    grid-template-areas:
+      "right"
+      "left";
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+    height: auto;
+  }
+
+  .left-content {
+    border-radius: 0;
+    border-right: none;
+    margin-bottom: 1rem;
+  }
+
+  .chart #pieChart {
+    height: 180px !important;
+  }
+
+  .right-content {
+    height: 400px;
+  }
+
+  .change-mode {
+    display: none !important;
+  }
+}
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+
+  main {
+    grid-template-areas:
+      "right"
+      "left";
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+    height: auto;
+  }
+
+  .left-content {
+    border-radius: 0;
+    border-right: none;
+    margin-bottom: 1rem;
+  }
+
+  .chart #pieChart {
+    height: 180px !important;
+  }
+
+  .right-content {
+    height: 400px;
+  }
+
+  .change-mode {
+    display: none !important;
+  }
+}
+
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  body {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  .left-content {
+    padding: 1rem;
+  }
+
+  .crash,
+  .injury,
+  .death,
+  .vehicle {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .total-info .title,
+  .total-info .value {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .chart #pieChart {
+    height: 150px !important;
+  }
+
+  .right-content {
+    height: 300px;
+  }
+
+  .change-mode {
+    top: 15px;
+    left: 20px;
+  }
+}
